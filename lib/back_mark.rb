@@ -1,4 +1,4 @@
-# = Back mark plugin
+# = Back mark gem
 #
 # Mark pages with labels that can be linked back from future pages as back
 # links
@@ -10,8 +10,12 @@
 # page, which was the LAST VISITED page. Hence, such CUD actions are
 # *_not_remembered_*.
 #
-# Author    ::  Vikram Venkatesan  (mailto:vikram.venkatesan@yahoo.com)
+# Author: Satyaram B V
 #
+# Inspired by back mark plugin authored by Vikram Venkatesan
+
+require "back_mark/core_extensions"
+
 module BackMark
   module ControllerMethods
     # Pages/Actions which we don't want to remember. We wouldnt ideally want to
@@ -125,3 +129,4 @@ module BackMark
     end
   end
 end
+
