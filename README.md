@@ -1,4 +1,4 @@
-RandomPasswordGenerator
+Back Mark
 =============
 
 `Backmark` gem can be used to mark pages with labels that can be linked back from future pages as back links.
